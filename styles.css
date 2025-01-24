@@ -1,0 +1,224 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: "Jockey One", serif;
+    color:#ffffff;
+    background-color: #001361;
+    
+}
+
+#particles-js {
+    position: static;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background:fixed;
+}
+
+.wrapper{
+    overflow-y:hidden !important;
+    overflow-x: hidden !important;
+  }
+
+
+.auto-type {
+    background: transparent;
+    padding: 40px;
+    position: static;
+    z-index: 6;
+    color: rgb(0, 17, 255);
+    text-align: center;
+    font-size: 7vw;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 80px;
+}
+
+.top-section {
+    align-items: center;
+    position: absolute;
+    left: 40%;                        /* horizontal alignment */
+    top: 20%;
+    margin: auto;                        /* vertical alignment */
+}
+
+
+.contact-info {
+    flex: 1; 
+    text-align: center;
+}
+
+.resume-headshot {
+    width: 300px;
+    height: 340px;
+    border-radius: 50%;
+    border: 5px solid #000000;
+    object-fit: cover;
+}
+
+
+.resume-section {
+    margin-bottom: 2em;
+    padding: 1em; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.407);
+}
+
+.resume-section h2 {
+    margin-bottom: .5em;
+    color: #be0808;
+    font-weight: 600;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: none; 
+}
+
+li {
+    margin-bottom: .5em;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+#education p {
+    font-style: italic;
+}
+
+.degree {
+    font-weight: bold;
+    display: block; 
+    margin-top: 1em; 
+}
+
+.school {
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+.timeline-content p {
+    font-style: italic;
+    margin-top: 0.5em;
+    color: #be0404; 
+}
+
+.resume-header {
+    text-align: center;
+}
+
+
+
+/* Timeline Styles */
+.timeline {
+    border-left: 3px solid #000000;
+    padding-left: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.timeline-entry {
+    margin-top: 1em;
+	cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+}
+
+.mtimeline-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    top: 0;
+}
+
+.timeline-content h3,
+.timeline-content p {
+    margin: 5px 0;
+    color: #cf0505; 
+}
+
+/* Transition for smooth toggling of description */
+.timeline-content p {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Style for hiding/showing description */
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
+/* Section Styles */
+.resume-section h2 {
+    background-color: #000000;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 1.2em; 
+}
+
+
+
+/* Style all font awesome icons */
+.fa-brands {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-instagram {
+    color: white;
+  }
+
+  .fa-linkedin {
+    color: white;
+  }
+
+  .fa-github {
+    color: white;
+  }
+
+
+.fa-regular {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }  
+  
+.fa-file-pdf {
+    color:white
+  }
+
+
+.jockey-one-regular {
+    font-family: "Jockey One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
