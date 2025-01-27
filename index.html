@@ -5,43 +5,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Interactive Resume - Ty Williams</title>
 <link rel="stylesheet" href="styles.css">
-<script src="https://kit.fontawesome.com/95689309c0.js" crossorigin="anonymous"></script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
-
 
 </head>
 <body>
-	<div class="wrapper">
-	<div id="particles-js">
-		
-		<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-    	<script>
+	<div id="particles-js"></div>
+    <div style="position: relative; z-index: 1; color: rgb(160, 34, 34); text-align: center;">
+		<h1><span class="auto-type"></span></h1>
+	</div>
+    
+	
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+	<script>
+			var typed = new Typed(".auto-type", {
+			  strings: ["Ty Williams"],
+			  typeSpeed: 150,
+			  backSpeed: 150,
+			  loop: true
+			})
+	</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script>
         particlesJS.load('particles-js', 'particles.json', function() {
             console.log('particles.js loaded');
         });
-    	</script>
-	</div>
+    </script>
 
 <div class="resume">
 	
 	<div class="top-section">
 		<div class="headshot-container">
-			<img src="sun.jpeg" alt="Your Name" class="resume-headshot">
+			<img src="headshot.jpg" alt="Your Name" class="resume-headshot">
 		</div>
 		<div class="contact-info">
-			<h1>Tyreik Williams</h1>
+			<h1>Ty Williams</h1>
+			<p>Austin, Tx | tywilliams1223@gmail.com</p>
 		</div>
-		<a href="https://www.facebook.com/tywilliams1223" class="fa-brands fa-facebook"></a>
-        <a href="http://www.linkedin.com/in/tyreikwilliams" class="fa-brands fa-linkedin"></a>
-		<a href="https://www.instagram.com/bacon_lava/" class="fa-brands fa-instagram"></a>
-		<a href="https://github.com/tombrady1223" class="fa-brands fa-github"></a>
-		<a href="https://docs.google.com/document/d/1f_3uRq24RKBL1WuG14vhhslPzq4qHEMQjvI8109S9Ck/edit?usp=drive_link" class="fa-regular fa-file-pdf"></a>
-		
-
-
 	</div>
 
     <section class="resume-section" id="experience">
@@ -61,17 +61,27 @@
 
 
     <section class="resume-section" id="certifications">
-        <h2>Skills</h2>
+        <h2>Skills and Certifications</h2>
         <ul>
-			<li>Technical Tools: Microsoft Office, SQL, JIRA, Javascript, Zendesk, AWS Solutions, Python, Linux OS, MacOS, Windows OS, Node.js</li>
+			<li>Expert in reading Binary like it's my first language. I'm practically the Jane Austen of 0's and 1's.</li>
 
-			<li>Technical Expertise: Technical Troubleshooting, DNS Management, TCP/IP, Customer Service, Help Desk Ticketing Systems, Technical Support, Active Directory</li>
+			<li>Advanced knowledge in Java. Not the island or the beverage, but I can have long conversations about both.</li>
+
+			<li>Proficient bug exterminator in the software realm. Less reliable for actual bugs, unless you want them turned into extra code snippets.</li>
+
+			<li>Expert PHP developer. Strangely, I'm not a Hypertext Preprocessor myself, just a humble developer.</li>
+
+			<li>Savvy in SQL databases - I know, it's a very "select" skill, insert sarcasm here.</li>
+
+			<li>Ruby on Rails - It's like a train ride, except the tracks are made of code and the train is more... virtual?</li>
+
+			<li>JavaScript extraordinaire - Jack of all trades, master of this one.</li>
+
+			<li>Typing at lightning speed with a record-breaking average of only two typos per manuscript!</li>
 		</ul>
     </section>
-	
 </div>
-<a href='http://www.freevisitorcounters.com'>more on freevisitorcounters.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=0b1da81f8b918fc7ec3a09f4b2189a15b8c80c3d'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1292650/t/2"></script>
+
 <script src="scripts.js"></script>
 </body>
 </html>
